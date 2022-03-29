@@ -1,0 +1,58 @@
+.playground img {
+    display:block;
+    width: 100%;
+}
+
+.playground img:last-child {
+    display: none; 
+
+}
+
+.playground:hover img:last-child {
+    display: block;
+
+}
+
+.playground:hover img:first-child {
+    display: none; 
+}
+
+/* SPIN */
+.spin img {
+    display:block;
+    width: 100%;
+}
+
+.spin img:last-child {
+    display: none; 
+
+}
+
+.spin:hover img:last-child {
+    display: block;
+
+}
+
+.spin:hover img:first-child {
+    display: none; 
+}
+
+/* NASA */
+.nasa img {
+    display:block;
+    width: 100%;
+}
+
+.nasa img:last-child {
+    display: none; 
+
+}
+
+.nasa:hover img:last-child {
+    display: block;
+
+}
+
+.nasa:hover img:first-child {
+    display: none; 
+}
