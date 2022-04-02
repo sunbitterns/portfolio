@@ -145,12 +145,11 @@ a:hover {
 
 .hero-container .left h1 {
     margin: 60px 0px 0px 90px;
-    font-size: 32px;
-    font-weight: 500;
+    font-size: 36px;
+    font-weight: 00;
     position: absolute;
     color: var(--purple);
-    font-family: "Space Mono", sans-serif;
-    font-style: italic;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 .hero-container .left h2 {
