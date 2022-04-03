@@ -62,7 +62,7 @@ a:hover {
     min-height: 100vh;
 }
 
-/* Header - Navigation */
+/* Header - Logo */
 
 .logo img {
     display:block;
@@ -82,6 +82,7 @@ a:hover {
     display: none;  
 }
 
+/* Header - Nav */
 .desktop-nav {
     display: flex;
     justify-content: space-between;
@@ -133,6 +134,7 @@ a:hover {
 
 .hero-container {
     margin-top: 120px;
+    margin-bottom: 20px;
     display: flex;
     text-align: left;
     color: var(--white);
@@ -180,7 +182,7 @@ a:hover {
 }
 
 
-/* Projects Featured*/
+/* Projects -  Featured*/
 
 .feature-container {
     display: block;
@@ -208,9 +210,9 @@ a:hover {
     transform: scale(1.02);
 }
 
-/* Projects More*/
+/* Projects - More*/
 .more-container {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .more-container img {
