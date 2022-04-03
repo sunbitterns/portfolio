@@ -47,7 +47,6 @@
 .gallery__link {
     cursor: default;
     overflow: hidden;
-
 }
 
 .gallery__link:hover {
@@ -80,5 +79,10 @@
     opacity: 0;
     background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
     transition: .3s;
+}
+
+#bike {
+    margin-top: 20px;
+    color: rgb(255, 255, 255, 0.8);
 }
 
