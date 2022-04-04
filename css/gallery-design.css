@@ -1,3 +1,8 @@
+.wrapper p {
+    margin: 80px 0px 0px 50px;
+    color: var(--white);
+}
+
 .btn {
     position: relative;
     top: 20px;
