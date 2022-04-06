@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Jeremia Lo</title>
+        <link rel="icon" sizes="48x48" href="favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/gallery.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@400;500;700&family=Space+Mono:ital,wght@1,700&display=swap');
+        </style>
+    </head>
+    
+    <div class="wrapper">
+        <nav class="desktop-nav">
+            <a href="index.html" class="logo" title="Jeremia Lo">
+                <img src="images/index/logo.png" alt="logo"></img>
+                <img src="images/index/logo-hover.png" alt="logo"></img>
+            </a> 
+
+            <ul class="menu-items">
+                <li>
+                    <a href="index.html">Work</a>
+                </li>
+                <li>
+                    <a href="play-design.html" class="active">Play</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End of Desktop Navigation -->         
+    </div>
+          
+    <body>
+        <div class="page-container">
+            <div class="wrapper">
+                <div id="buttons">
+                    <a href="play-art.html"><button class="btn"> Art</button></a>
+                    <a href="play-design.html"><button class="btn"> Design</button></a>
+                    <a href="play-photo.html"><button class="btn"> Photo</button></a>
+                    <a href="play-photo.html"><button class="btn active"> Writing</button></a>
+                </div> <!-- End of Control buttons -->
+
+                <!--<p> >> A collection of surrealist writing. </p>!-->
+                <ul class="poetry-wrapper">
+                    <h1>interactive poetry</h1>
+                    <li>🌾 <a href="writing/countryMystery.html">a country mystery</a></li>
+                    <li class="caption"></li>
+                    <li>🌃 <a href="">from the plane window</a></li>
+                    <li class="caption"></li>
+                    <li>🎯 <a href="">the alphabet drill</a></li>
+                    <li class="caption"></li>
+                    <li>⛅ <a href="">twin windows</a></li>
+                    <li class="caption"></li>
+
+                    <h1>others</h1>
+                    <li>🌿 <a href="">dream apothecary</a></li>
+                    <li class="caption">a short film script — coming soon</li>
+                    <li>🤖 <a href="writing/6eRealDad.html">6e RealDad™</a></li>
+                    <li class="caption">an instruction manual</li>
+                    <li>🦷 <a href="writing/theCollector.html">the collector</a></li>
+                    <li class="caption">creative fiction</li>
+
+                    
+                </ul>
+
+                <!--TO-DO bring up gifs on the right on link hover-->
+                
+            </div><!-- End of Wrapper -->
+
+            <footer>
+                <div class="wrapper">
+                    <div class="footer-container">
+                        <div class="footer-text">
+                            © Jeremia Lo 2022
+    
+                            <a href="mailto:jeremia@cmu.edu">
+                                jeremia@cmu.edu
+                            </a>
+                        </div>
+    
+                        <div class="footer-social">
+                            <a href="https://github.com/sunbitterns">
+                                <img src="images/footer/githubLogo.png" alt="GitHub"><img>
+                            </a>
+                            <a href="https://medium.com/@lojeremia">
+                                <img src="images/footer/mediumLogo.png" alt="Medium"><img>
+                            </a>
+                            <a href="https://www.are.na/jay-lo">
+                                <img src="images/footer/arenaLogo.png" alt="Are.na"><img>
+                            </a>
+                            <a href="https://www.pinterest.com/starspaces/_saved/">
+                                <img src="images/footer/pinterestLogo.png" alt="Pinterest"><img>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!--End of the Footer-->
+        </div>
+        
+    
+        <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+        <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.gallery__thumb', 
+            {opacity: 0.4, duration: 2500,
+            origin: 'bottom', scale: 0.95, mobile: false});
+        </script>
+    </body> 
+</html>

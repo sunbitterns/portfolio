@@ -4,6 +4,44 @@
     color: var(--white);
 }
 
+.poetry-wrapper {
+    margin-top: 110px;
+    font-size: 36px;
+    list-style: none;
+}
+
+.poetry-wrapper li {
+    color: white;
+}
+
+.poetry-wrapper a {
+    text-decoration: none;
+}
+
+.poetry-wrapper a:hover:after {
+    color: var(--white);
+    content: " ➔";
+    animation: fadeInAnimation ease .4s;
+	animation-iteration-count: 1;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.caption {
+    padding: 0px 0px 0px 60px;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 40px;
+
+}
+
 .btn {
     position: relative;
     top: 20px;
